@@ -1,4 +1,5 @@
 # Minecraft Assets Deobfuscator
+# Typo on Repository Name. I know it. Whatever : (
 
 ## A super lightweight Java program that remaps your .minecraft/assets folder!
 
