@@ -35,21 +35,6 @@ public class Main {
         }
         print("================================");
         input("Done! Press ENTER to exit!");
-
-        File indexFile = null;
-        String indexFileName;
-        while (indexFile == null) {
-            indexFileName = input("Please enter an index file name (Ex. 1.8.json)\n>> ");
-            try {
-                indexFile = new File(indexesFolder, indexFileName);
-                if (!indexFile.isFile()) throw new NullPointerException();
-            } catch (Exception e) {
-                print("Invalided Filename!");
-                indexFile = null;
-            }
-        }
-
-
     }
 
     private static void remap(File indexFile, File objectsFolder) throws IOException {
